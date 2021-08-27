@@ -1,8 +1,8 @@
 {
     "openapi": "3.0.2",
     "info": {
-        "title": "Discards API - Test",
-        "version": "1.0.1",
+        "title": "Discards API - Prod",
+        "version": "1.0.2",
         "description": "The discards API is used to send discard data to the SAFIS database for a variety of projects. ",
         "contact": {
             "email": "support@accsp.org"
@@ -12,12 +12,12 @@
             "url": "https://opensource.org/licenses/MIT"
         },
         "x-logo": {
-            "url": "https://github.com/accsp-software/spec-discards-test/raw/main/docs/accsp_logo.jpg"
+            "url": "https://github.com/accsp-software/spec-discards-prod/raw/main/docs/accsp_logo.jpg"
         }
     },
     "servers": [
         {
-            "url": "https://safis.accsp.org/safis_test/safist/scamp"
+            "url": "https://safis.accsp.org/safis_prod/safis_prod/scamp"
         }
     ],
     "paths": {
